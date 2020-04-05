@@ -44,6 +44,7 @@ class App:
             pygame.event.pump()
             keys = pygame.key.get_pressed()
 
+            #to quit a program
             if keys[pygame.K_ESCAPE]:
                 #self._running = False
                 pygame.quit()
