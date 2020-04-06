@@ -24,7 +24,7 @@ class App:
         #display creating
         self._display_surf = pygame.display.set_mode((self.windowWidth, self.windowHeight), pygame.HWSURFACE)
 
-        #window name
+        #window's name
         pygame.display.set_caption('TEST')
         self._running = True
         self._image_surf = pygame.image.load("cafe.png").convert()
