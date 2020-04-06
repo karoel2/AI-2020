@@ -93,16 +93,15 @@ class Order:
 
 class Waiter(pai.gameobject.GameObject):
     #to do
-    pass
+
+    def __int__(self):
+        pass
 
 
 class Field(object):
     #To do
     def __int__(self):
         pass
-
-
-
 
 
 if __name__ == "__main__" :
